@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E1D9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memo"
+        android:textSize="24sp"
+        android:textColor="#262626"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/memoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:hint="Type your memo here..."
+        android:textColor="#262626"
+        android:textSize="16sp"
+        android:gravity="top"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btnSaveMemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="90dp"
+        android:text="Save"
+        android:backgroundTint="#262626"
+        android:textColor="#FFF" />
+</RelativeLayout>

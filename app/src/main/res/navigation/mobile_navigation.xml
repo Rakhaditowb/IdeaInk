@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.apps.ideaink.ui.main.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_noteFragment"
+            app:destination="@id/noteFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_financeFragment"
+            app:destination="@id/financeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_memoFragment"
+            app:destination="@id/memoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_todoFragment"
+            app:destination="@id/todoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_self"
+            app:destination="@id/navigation_main" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.apps.ideaink.ui.main.NoteFragment"
+        android:label="Note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/financeFragment"
+        android:name="com.apps.ideaink.ui.main.FinanceFragment"
+        android:label="Finance"
+        tools:layout="@layout/fragment_finance" />
+    <fragment
+        android:id="@+id/memoFragment"
+        android:name="com.apps.ideaink.ui.main.MemoFragment"
+        android:label="Memo"
+        tools:layout="@layout/fragment_memo" />
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.apps.ideaink.ui.main.ToDoFragment"
+        android:label="To-Do"
+        tools:layout="@layout/fragment_to_do" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.apps.ideaink.ui.search.SearchFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.apps.ideaink.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
