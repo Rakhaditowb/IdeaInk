@@ -1,4 +1,5 @@
-package com.example.PPAB10
+package com.apps.ideaink.ui.profile
+
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -12,7 +13,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.PPAB10.databinding.ActivityFormUserPreferenceBinding
+import com.apps.ideaink.R
+import com.apps.ideaink.databinding.ActivityFormUserPreferenceBinding
+import com.example.PPAB10.UserModel
+import com.example.PPAB10.UserPreference
 import com.soundcloud.android.crop.Crop
 import java.io.File
 import java.io.FileOutputStream

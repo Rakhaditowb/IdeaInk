@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
@@ -60,6 +61,10 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.8")
     implementation ("com.google.android.material:material:1.4.0")
     implementation ("com.google.android.material:material:1.4.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.soundcloud.android:android-crop:1.0.1@aar")
+    implementation ("com.github.angads25:toggle:1.1.0")
+
 
 
 }

@@ -24,4 +24,18 @@
     <string name="judul">Judul</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+<!--Profile-->
+    <string name="quote">Quote</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="isi">Fill Data</string>
+    <string name="change">Update</string>
+    <string name="dummy_name">aaa</string>
+    <string name="dummy_email">aaa@aaa.com</string>
+    <string name="dummy_bio">aaa</string>
+    <string name="image">Profile Photo</string>
 </resources>

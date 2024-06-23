@@ -5,7 +5,8 @@
     android:id="@+id/activity_form_user_preference"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormUserPreferenceActivity">
+    android:background="#E3E1D9"
+    tools:context=".ui.profile.FormUserPreferenceActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
